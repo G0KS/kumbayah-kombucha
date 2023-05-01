@@ -1053,7 +1053,7 @@ footer {
    }
    .comingProduct:hover h3 {
       background-color: unset;
-      color: orange;
+      color: white;
       top: -25%;
       left: 50%;
    }

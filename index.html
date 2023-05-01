@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Kumbayah Kombucha</title>
+      <link
+         rel="shortcut icon"
+         href="/images/favicon.ico"
+         type="image/x-icon"
+      />
+
+      <!-- Link for FontAwesome -->
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+
+      <!-- Link for External CSS -->
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <div class="container">
+         <!-- NavBar -->
+
+         <nav>
+            <div class="logoImg">
+               <img src="/images/Logo.png" alt="Logo Image" />
+            </div>
+            <input type="checkbox" id="menuBtn" />
+            <label for="menuBtn" class="menuLabel"
+               ><i class="fa-regular fa-square-caret-down menu"></i
+            ></label>
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#products">Our Products</a></li>
+               <li><a href="#about">About Us</a></li>
+               <li><a href="#review">Reviews</a></li>
+            </ul>
+         </nav>
+
+         <!-- Hero Section -->
+
+         <section id="hero">
+            <div class="heroContainer">
+               <div class="heroTop">
+                  <div class="heroTopImg">
+                     <img src="/images/Cover.jpg" alt="Hero Image" />
+                  </div>
+                  <div class="overlay">
+                     <div class="heroTopImgContent">
+                        <div class="heroTopImgTitle">
+                           <img
+                              src="/images/Circle Logo.jpg"
+                              alt="Circle Logo"
+                           />
+                           <div class="heroTopImgDescription">
+                              <h1>Kumbayah Kombucha</h1>
+                              <h3>Healthy Probiotic Drink</h3>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="heroMiddle">
+                  <h1>Trust Your Gut</h1>
+               </div>
+               <div class="heroBottom">
+                  <div class="heroBottomTitle">
+                     <h1>What is Kombucha?</h1>
+                  </div>
+                  <div class="heroBottomContent">
+                     <div class="heroBottomDescription">
+                        <p>
+                           Kombucha is a fermented, lightly effervescent,
+                           sweetened black tea drink commonly consumed for its
+                           purported health benefits. Sometimes the beverage is
+                           called kombucha tea to distinguish it from the
+                           culture of bacteria and yeast. Juice, spices, fruit
+                           or other flavorings are often added.
+                        </p>
+                        <img src="/images/hero shape.png" alt="" />
+                     </div>
+                     <div class="heroBottomVideo">
+                        <video playsinline autoplay muted loop>
+                           <source
+                              src="/images/Hero video.webm"
+                              type="video/webm"
+                           />
+                        </video>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!-- Products Section -->
+
+         <section id="products">
+            <div class="productContainer">
+               <div class="productTitle">
+                  <h1>Check Out our products</h1>
+               </div>
+               <div class="productContent">
+                  <div class="productWeek">
+                     <div class="productDesc">
+                        <h1>Our Product of the Week</h1>
+                     </div>
+                     <img src="/images/Product of the week.jpg" alt="" />
+                  </div>
+                  <div class="productList">
+                     <div class="cardOuter">
+                        <div class="productCard">
+                           <img
+                              src="/images/Kombucha Original.png"
+                              alt="Original"
+                           />
+                           <div class="cardTitle">
+                              <p>Original</p>
+                           </div>
+                           <div class="cardDescription">
+                              <p>Fermented Green & Black Tea Beverage</p>
+                              <span>Price: ₹99</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="cardOuter">
+                        <div class="productCard">
+                           <img
+                              src="/images/Kombucha Black Detox.png"
+                              alt="Black Detox"
+                           />
+                           <div class="cardTitle">
+                              <p>Black Detox</p>
+                           </div>
+                           <div class="cardDescription">
+                              <p>
+                                 Fermented Green & Black Tea Beverage with
+                                 Grapes
+                              </p>
+                              <span>Price: ₹119</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="cardOuter">
+                        <div class="productCard">
+                           <img
+                              src="/images/Kombucha Pink Lady.png"
+                              alt="Pink Lady"
+                           />
+                           <div class="cardTitle">
+                              <p>Pink Lady</p>
+                           </div>
+                           <div class="cardDescription">
+                              <p>
+                                 Fermented Green & Black Tea Beverage with
+                                 Ginger & Citrus
+                              </p>
+                              <span>Price: ₹119</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="cardOuter">
+                        <div class="productCard">
+                           <img
+                              src="/images/Kombucha Green Goddess.png"
+                              alt="Green Goddess"
+                           />
+                           <div class="cardTitle">
+                              <p>Green Goddess</p>
+                           </div>
+                           <div class="cardDescription">
+                              <p>
+                                 Fermented Green & Black Tea Beverage with Green
+                                 Apple
+                              </p>
+                              <span>Price: ₹119</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="productButtons">
+                     <button>View all products</button>
+                     <button>Where to buy ?</button>
+                  </div>
+                  <div class="comingProduct">
+                     <h3>Launching Soooon...</h3>
+                     <img src="/images/Coming Soon.jpg" alt="Coming Soon" />
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!-- About Section -->
+
+         <section id="about">
+            <div class="aboutContainer">
+               <div class="aboutTitle">
+                  <h1>About Us</h1>
+               </div>
+               <div class="aboutContent">
+                  <div class="aboutTop">
+                     <div class="aboutImg">
+                        <img src="/images/About Img.jpg" alt="About Img" />
+                     </div>
+                     <div class="aboutDesc">
+                        <p>
+                           Kumbayah Kombucha is a probiotic tea that has been
+                           fermented with SCOBY (A colony of good bacteria &
+                           yeast). It is then flavoured with fresh fruits &
+                           herbs resulting in healthy & delicious sparkling
+                           beverage. Kumbayah Kombucha stands as a Healthy Soda
+                           alternative due to low sugar & Natural carbonation.
+                           It is full of Probiotics & Antioxidants which Helps
+                           digestion, Improves mood,skin & detoxifies the liver.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="aboutMiddle">
+                     <div class="founderDesc">
+                        <p>
+                           When I was in Bhopal, a good friend of mine from
+                           Spain gifted me a kombucha scoby, which is a starter
+                           kit to brew your own concoction. I soon started
+                           brewing my own kombucha as it helped me with my
+                           stomach issues. The owner of Cafe Onway in Palayam,
+                           Trivandrum and I used to chill during closing hours
+                           and share a bottle or two of my kombucha with him. He
+                           liked it so much that he offered it to his customers.
+                           They gave really good reviews. That's when I decided
+                           to sell my product.
+                           <br />
+                        </p>
+                        <span> - Arvind (Founder)</span>
+                     </div>
+                     <div class="founderImg">
+                        <img src="/images/Founder.png" alt="Founder img" />
+                     </div>
+                  </div>
+                  <div class="aboutBottom">
+                     <div class="galleryTitle">
+                        <h2>Our Gallery</h2>
+                     </div>
+                     <div class="galleryList">
+                        <div class="galleryImg">
+                           <img src="/images/Gallery 1.jpg" alt="Gallery 1" />
+                        </div>
+                        <div class="galleryImg">
+                           <img src="/images/Gallery 2.jpg" alt="Gallery 2" />
+                        </div>
+                        <div class="galleryImg">
+                           <img src="/images/Gallery 3.jpg" alt="Gallery 3" />
+                        </div>
+                        <div class="galleryImg">
+                           <img src="/images/Gallery 4.jpg" alt="Gallery 4" />
+                        </div>
+                        <!-- <div class="galleryImg">
+                           <img src="/images/Gallery 5.jpg" alt="Gallery 5" />
+                        </div>
+                        <div class="galleryImg">
+                           <img src="/images/Gallery 6.jpg" alt="Gallery 6" />
+                        </div> -->
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!-- Review Section -->
+
+         <section id="review">
+            <div class="reviewContainer">
+               <div class="reviewTitle">
+                  <h1>What Kombucha lovers say..</h1>
+               </div>
+               <div class="reviewList">
+                  <div class="reviewCard">
+                     <div class="reviewDescription">
+                        <h2>@atul.diamond.sowri</h2>
+                        <div class="stars">
+                           <span><i class="fa-solid fa-star"></i></span>
+                           <span><i class="fa-solid fa-star"></i></span>
+                           <span><i class="fa-solid fa-star"></i></span>
+                           <span><i class="fa-solid fa-star"></i></span>
+                           <span
+                              ><i class="fa-solid fa-star-half-stroke"></i
+                           ></span>
+                        </div>
+                        <p>
+                           A refreshing treat on a hot and humid day, aka Summer
+                           Saviours. This fresh, fruity and vibrant flavoured
+                           beverage is my new favourite thing to drink. Highly
+                           recommended!
+                        </p>
+                     </div>
+                     <img src="/images/Reviewer 1.jpg" alt="Person 1" />
+                  </div>
+                  <div class="reviewCard">
+                     <div class="reviewDescription">
+                        <h2>@shibin_jayaram</h2>
+                        <div class="stars">
+                           <span><i class="fa-solid fa-star"></i></span>
+                           <span><i class="fa-solid fa-star"></i></span>
+                           <span><i class="fa-solid fa-star"></i></span>
+                           <span><i class="fa-solid fa-star"></i></span>
+                           <span
+                              ><i class="fa-solid fa-star-half-stroke"></i
+                           ></span>
+                        </div>
+                        <p>
+                           Change is good. I just discovered Kumbayah Kombuchaa
+                           and I'm obsessed with all the sparkling goodness in
+                           this bottle.
+                        </p>
+                     </div>
+                     <img src="/images/Reviewer 2.jpg" alt="Person 2" />
+                  </div>
+                  <div class="reviewCard">
+                     <div class="reviewDescription">
+                        <h2>@volmarthomas</h2>
+                        <div class="stars">
+                           <span><i class="fa-solid fa-star"></i></span>
+                           <span><i class="fa-solid fa-star"></i></span>
+                           <span><i class="fa-solid fa-star"></i></span>
+                           <span><i class="fa-solid fa-star"></i></span>
+                           <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                        <p>
+                           A powerhouse and an all-around happiness tonic with
+                           low sugar and zero added flavours. Thank you for the
+                           prompt delivery as well. Top flavour picks for me so
+                           far are Pink Lady, Berry Mix and Lychee Rose. An
+                           absolute delight!
+                        </p>
+                     </div>
+                     <img src="/images/Reviewer 3.jpg" alt="Person 3" />
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!-- Footer -->
+
+         <section id="Footer">
+            <footer>
+               <div class="footerContent">
+                  <div class="footerContact">
+                     <div class="footerImg">
+                        <img src="/images/Footer Logo.png" alt="Footer Logo" />
+                     </div>
+                     <div class="footerIcons">
+                        <div class="iconContainer">
+                           <div class="iconDiv">
+                              <a
+                                 href="https://www.instagram.com/"
+                                 target="_blank"
+                                 ><i class="fa-brands fa-instagram"></i
+                              ></a>
+                           </div>
+                           <div class="iconDiv">
+                              <a href=""
+                                 ><i
+                                    class="fa-brands fa-whatsapp"
+                                    target="_blank"
+                                 ></i
+                              ></a>
+                           </div>
+                           <div class="iconDiv">
+                              <a
+                                 href="https://twitter.com/home?lang=en"
+                                 target="_blank"
+                                 ><i class="fa-brands fa-twitter"></i
+                              ></a>
+                           </div>
+                           <div class="iconDiv">
+                              <a
+                                 href="https://www.facebook.com/"
+                                 target="_blank"
+                                 ><i class="fa-brands fa-facebook"></i
+                              ></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <ul>
+                     <li><p>About</p></li>
+                     <li><a href="#about">Our Story</a></li>
+                     <li><a href="#about">Our Team</a></li>
+                     <li><a href="#about">Milestones</a></li>
+                     <li><a href="#about">Career</a></li>
+                  </ul>
+                  <ul>
+                     <li><p>Explore</p></li>
+                     <li><a href="#products">Our Partners</a></li>
+                     <li><a href="#products">Our Clients</a></li>
+                     <li><a href="#products">Our Products</a></li>
+                  </ul>
+                  <ul>
+                     <li><p>Need Help?</p></li>
+                     <li><a href="#">Track your Order</a></li>
+                     <li><a href="#">Privacy Policy</a></li>
+                     <li><a href="#">Return & Refunds</a></li>
+                  </ul>
+               </div>
+               <div class="lineDiv">
+                  <div class="line"></div>
+               </div>
+               <p id="copy">
+                  &copy; 2023 Kumbayah Kombucha | All rights reserved <br />
+                  Developed by Gokul Raj
+               </p>
+               <a href="#"><i class="fa fa-arrow-up" id="upArw"></i></a>
+            </footer>
+         </section>
+      </div>
+   </body>
+</html>
